@@ -74,7 +74,3 @@ foreach ($item in $arrayofstorage){
 	unmount-datastore -datastore $item.Datastore
 	detach-datastore -datastore $item.Datastore
 }
-
-
-
-
